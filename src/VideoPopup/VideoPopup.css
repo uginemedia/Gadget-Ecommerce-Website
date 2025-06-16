@@ -1,0 +1,51 @@
+.video-popup {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../assets/video.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-popup button {
+    font-size: 7em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    animation: zoom 4s linear alternate infinite;
+}
+
+@keyframes zoom {
+    0% {transform: scale(1);}
+    100% {transform: scale(1.5);}
+}
+
+.popup-contianer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    background: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    max-width: 700px;
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+    background: #fff;
+}
+
+.popup iframe {
+    width: 100%;
+    height: 100%;
+}

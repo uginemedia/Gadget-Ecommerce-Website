@@ -1,0 +1,134 @@
+.swiper-container {
+    margin-top: 10vh;
+    padding: 1em;
+}
+
+.swiper-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.swiper-title h3 {
+    font-size: 2.7em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.swiper-title button {
+    padding: 15px 40px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #424649;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.swiper-title button:hover {
+    letter-spacing: 8px;
+}
+
+.image-slide {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.image-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+  transform: scale(1.2);
+}
+
+.slide-description {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 80%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-size: 1.2em;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.slide-description span {
+    font-size: 0.9em;
+}
+
+.image-slide:hover .slide-description {
+    top: 80%;
+    opacity: 1;
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.image-content span:last-child {
+    font-weight: 550;
+}
+
+.swiper-title h3.review {
+    font-size: 5em;
+    color: #D5D6D7;
+}
+
+.text-slide {
+    text-align: center;
+    font-size: 1.2em;
+    color: #424649;
+    margin-bottom: 50px;
+}
+
+.text-slide span {
+    display: block;
+    margin: 20px 0;
+    color: #000;
+    font-weight: 550;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .swiper-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .swiper-title h3 {
+        font-size: 2em;
+    }
+
+    .swiper-title button {
+        padding: 10px 30px;
+    }
+
+    .swiper-title h3.review {
+        font-size: 2.5em;
+    }
+
+    .slide-description {
+        padding: 10px 30px;
+    }
+}

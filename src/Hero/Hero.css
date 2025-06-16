@@ -1,0 +1,60 @@
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/hero.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15em;
+    color: #fff;
+}
+
+.hero > div span {
+    font-size: 3em;
+}
+
+.hero > div h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    max-width: 600px;
+    line-height: 1.3em;
+    letter-spacing: 0.0001em;
+}
+
+.hero > div button {
+    padding: 15px 50px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.hero > div button:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* Responsiveness */
+@media (max-width: 1000px) {
+    .hero {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero > div span {
+        font-size: 2em;
+    }
+    .hero > div h1 {
+        font-size: 2.5em;
+        line-height: 1.5em;
+    }
+}
