@@ -30,7 +30,7 @@ const VideoPopup = () => {
         <motion.div className='video-popup'
           initial={{opacity: 0, scale: 0}}
           whileInView={{opacity: 1, scale: 1}}
-          transition={{duration: 0.6}}
+          transition={{duration: 1.5}}
           viewport={{once: true, amount: 0}}
         >
             <button onClick={() => setOpenPopup(true)}><FontAwesomeIcon icon={faPlayCircle} /></button>

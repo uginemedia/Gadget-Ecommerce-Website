@@ -8,7 +8,7 @@ const Footer = () => {
     <motion.div className='footer'
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
-      transition={{duration: 1}}
+      transition={{duration: 2}}
       viewport={{once: true, amount: 0}}
     >
         <div className="footer-container">

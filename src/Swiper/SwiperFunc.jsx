@@ -18,7 +18,7 @@ const SwiperFunc = ({swiperTitle, imageSlides, content, swiperSubTitle, textSlid
       <motion.div className="swiper-title"
         initial={{opacity: 0, x: -200}}
         whileInView={{opacity: 1, x: 0}}
-        transition={{duration: 1}}
+        transition={{duration: 1.5}}
         viewport={{once: true, amount: 0}}
       >
         {swiperTitle ? <>
@@ -57,7 +57,7 @@ const SwiperFunc = ({swiperTitle, imageSlides, content, swiperSubTitle, textSlid
             <motion.div className='image-slide'
               initial={{opacity: 0, y: 200}}
               whileInView={{opacity: 1, y: 0}}
-              transition={{duration: 0.6 * index}}
+              transition={{duration: 1 * index}}
               viewport={{once: true, amount: 0}}
             >
               <img src={src} alt={`Slide ${index + 1}`} />

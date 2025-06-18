@@ -19,7 +19,7 @@ const Navbar = () => {
       <motion.header className="navbar"
         initial={{opacity: 0, y: -50}}
         whileInView={{opacity: 1, y: 0}}
-        transition={{duration: 0.6}}
+        transition={{duration: 1.5}}
         viewport={{once: true, amount: 0}}
       >
         <a href="" className="navbar-logo"><img src={logo} alt="logo" /></a>

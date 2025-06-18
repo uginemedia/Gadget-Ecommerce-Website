@@ -13,7 +13,7 @@ const Article = () => {
         <motion.div className="article-header"
             initial={{opacity: 0, x: -200}}
             whileInView={{opacity: 1, x: 0}}
-            transition={{duration: 1}}
+            transition={{duration: 1.5}}
             viewport={{once: true, amount: 0}}
         >
             <h3>news articles</h3>
@@ -22,7 +22,7 @@ const Article = () => {
         <motion.div className="all-articles"
             initial={{opacity: 0, y: 200}}
             whileInView={{opacity: 1, y: 0}}
-            transition={{duration: 0.6}}
+            transition={{duration: 1.7}}
             viewport={{once: true, amount: 0}}
         >
             <div className="article">

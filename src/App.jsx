@@ -45,7 +45,7 @@ const App = () => {
     <motion.div className="news-letter"
       initial={{opacity: 0, scale: 0}}
       whileInView={{opacity: 1, scale: 1}}
-      transition={{duration: 0.6}}
+      transition={{duration: 1.5}}
       viewport={{once: true, amount: 0}}
     >
       <h3>subscribe us</h3>
