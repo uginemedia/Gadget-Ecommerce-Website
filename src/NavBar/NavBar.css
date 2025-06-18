@@ -8,13 +8,6 @@
   z-index: 99;
 }
 
-.navbar-logo {
-  font-size: 2em;
-  font-weight: 500;
-  color: #fff;
-  text-decoration: none;
-}
-
 .navbar-links ul {
   display: flex;
   list-style: none;

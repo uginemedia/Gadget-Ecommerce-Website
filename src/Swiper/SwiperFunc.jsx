@@ -32,8 +32,6 @@ const SwiperFunc = ({swiperTitle, imageSlides, content, swiperSubTitle, textSlid
         spaceBetween={30}
         slidesPerView={1}
         {...paginationID && {loop: true, autoplay: {delay: 2500, disableOnInteraction: false}, pagination: {enabled: true, clickable: true}}}
-        // loop={true}
-        // autoplay={{delay: 2500, disableOnInteraction: false}}
         
         //Responsiveness
           breakpoints={{
